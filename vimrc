@@ -127,9 +127,6 @@ if has("gui_running")
 	set t_Co=256
 	"" Size of GUI version windows
 	set columns=84 lines=60
-	map <D-CR> <Esc>:call ToggleFu()<CR>
-	imap <D-CR> <Esc>:call ToggleFu()<CR>i
-	vmap <D-CR> <Esc>:call ToggleFu()<CR>
 endif
 
 if &t_Co >= 256 || has("gui_running")
