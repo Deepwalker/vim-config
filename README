@@ -1,3 +1,3 @@
-Make sure you've now ~/.vim and ~/.vimrc, then just run:
+Make sure you've no ~/.vim and ~/.vimrc, then just run:
 	
 	$ make install
