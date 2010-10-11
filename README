@@ -1,0 +1,3 @@
+Make sure you've now ~/.vim and ~/.vimrc, then just run:
+	
+	$ make install
