@@ -14,6 +14,7 @@ set hidden
 set nowrap        	" don't wrap lines
 set tabstop=4     	" a tab is four spaces
 set backspace=indent,eol,start
+set nofoldenable
                   	" allow backspacing over everything in insert mode
 set autoindent    	" always set autoindenting on
 set copyindent    	" copy the previous indentation on autoindenting
