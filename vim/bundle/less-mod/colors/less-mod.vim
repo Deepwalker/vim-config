@@ -10,8 +10,7 @@ set background=dark
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "less"
-
+let g:colors_name = "less-mod"
 hi Normal         term=none ctermfg=7 ctermbg=0 gui=none guifg=gray70 guibg=black
 hi Directory      term=bold cterm=bold ctermfg=blue guifg=white
 hi Search         term=reverse ctermfg=white  ctermbg=blue guifg=black guibg=gray90
@@ -35,6 +34,10 @@ hi StorageClass   term=bold cterm=bold ctermfg=5 gui=none guifg=gray90
 hi Type           term=none cterm=none ctermfg=7 gui=none guifg=White
 hi Defined        term=bold cterm=bold ctermfg=6 gui=none guifg=gray80
 hi CursorLine     cterm=NONE ctermbg=darkred ctermfg=white guibg=gray20
+hi PMenu       	  term=bold cterm=bold ctermfg=3 gui=none guibg=gray20 guifg=gray90
+hi PMenuSel       term=bold cterm=bold ctermfg=3 gui=bold guibg=gray30 guifg=gray90
+hi Visual         term=bold cterm=bold ctermfg=3 gui=none guibg=gray90 guifg=gray20
+
 hi link Character       String
 hi link Number          Constant
 hi link Boolean         Constant

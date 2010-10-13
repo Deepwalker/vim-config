@@ -130,7 +130,7 @@ if has("gui_running")
 endif
 
 if &t_Co >= 256 || has("gui_running")
-   colorscheme less
+   colorscheme less-mod
 endif
 
 if &t_Co > 2 || has("gui_running")
